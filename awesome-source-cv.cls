@@ -189,7 +189,7 @@
 % Create a tag
 % Usage: \cvtag{<tag label>}
 \newcommand{\cvtag}[1]{%
-  \tikz[baseline]\node[anchor=base,draw=darkGrey!70,rounded corners=0.5ex,inner xsep=1ex,inner ysep =0.55ex,text height=1.3ex,text depth=.25ex]{#1};
+  \tikz[baseline]\node[anchor=base,draw=darkGrey!70,rounded corners=0.5ex,inner xsep=1ex,inner ysep =1.55ex,text height=1.3ex,text depth=.25ex]{#1};
 }
 
 % Render author's name
@@ -513,6 +513,6 @@
 	\textit{#1}    & \textsc{#2} &  								\\*
 	\textit{#3}    & \begin{minipage}[t]{\rightcolumnlength}
 		#4
-	\end{minipage}	&									\\*
+	\end{minipage}	&									\\\\*
 	& \footnotesize{\foreach \n in {#5}{\cvtag{\n}}} 	& \\
 }
