@@ -182,6 +182,9 @@
 \newcommand{\viadeoSymbol}{\faViadeo}
 \newcommand{\mobileSymbol}{\faMobilePhone}
 \newcommand{\githubSymbol}{\faGithub}
+\newcommand{\jobSymbol}{\faBlackTie}
+\newcommand{\jobStatusSymbol}{\faBullseye}
+\newcommand{\SalarySymbol}{\faCny}
 
 \newcommand\link[2]{\color{linkcolor}\href{#1}{#2}\color{Black} }
 \newcommand\important[1]{\textbf #1}
@@ -249,6 +252,11 @@
 % Usage: \infos{<infos>}
 \newcommand*{\infos}[1]{\socialtext{\infoSymbol}{#1}}
 
+\newcommand*{\jobs}[1]{\socialtext{\jobSymbol}{#1}}
+
+\newcommand*{\jobstatus}[1]{\socialtext{\jobStatusSymbol}{#1}}
+
+\newcommand*{\salary}[1]{\socialtext{\SalarySymbol}{#1}}
 % Render author's linked-in (optional)
 % Usage: \linkedin{<linked-in-nick>}
 \newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{http://www.linkedin.com/in/#1}{linkedin.com/in/#1}}
